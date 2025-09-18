@@ -88,3 +88,14 @@ Such a system is highly valuable for businesses, researchers, and developers who
 
 
 
+**OUTPUT**
+
+<img width="1090" height="378" alt="image" src="https://github.com/user-attachments/assets/97aea64d-6ab0-4bf6-87d7-70a6d8ed9852" />
+
+
+<img width="1090" height="843" alt="image" src="https://github.com/user-attachments/assets/e79b36cb-2933-484d-a93f-39e417647eed" />
+
+
+
+
+
