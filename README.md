@@ -6,16 +6,19 @@ The goal of this project is to design and implement a Python-based program that 
 Instead of extracting plain text, the program aims to preserve the logical hierarchy of the document such as pages, sections, sub-sections, paragraphs, tables, and charts/images.
 This structured JSON output can be further used in data analytics, search engines, or knowledge management systems.
 Requirements
+
 **Input & Output**
 
 •	Input: A PDF file (e.g., financial reports, fact sheets, research papers).
 •	Output: A JSON file that organizes extracted content into a clear structure with types like paragraph, table, chart.
+
 **Libraries Used**
 
 1.	pdfplumber → for extracting text and simple tables.
 2.	PyMuPDF (fitz) → for extracting images and handling layout.
 3.	streamlit  → for creating a user interface.
 4.	camelot (optional) → for advanced table extraction.
+   
 **Methodology**
 
 The project follows a modular approach, where each step of PDF parsing is handled separately:
@@ -35,6 +38,7 @@ o	They are saved as separate PNG files and referenced inside the JSON output.
 o	Each page is represented as an object in JSON.
 o	Inside each page, content is divided into paragraph, table, or chart.
 o	Section headers are linked to paragraphs when possible.
+
 **JSON Structure (Example)**
 
 {
